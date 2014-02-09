@@ -54,8 +54,8 @@ body #header .nav li a:hover {
 }
 body #this-box {
   float: left;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-top: 25px;
+  margin-bottom: 25px;
   font-size: 45px;
   font-weight: bold;
   width: 49.4%;
@@ -63,8 +63,8 @@ body #this-box {
 }
 body #this-other-box {
   float: left;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-top: 25px;
+  margin-bottom: 25px;
   font-size: 45px;
   font-weight: bold;
   width: 49.4%;
@@ -76,8 +76,9 @@ body #content-wrap {
   height: 100%;
 }
 body #content-wrap .content {
+  margin: auto;
   background-color: #fff;
-  width: 100%;
+  width: 95%;
   padding: 15px 15px 15px 15px;
 }
 body #content-wrap #footer {
