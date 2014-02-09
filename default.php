@@ -21,18 +21,12 @@
 			</div>
 			<div id="this-box">
 				<?php
-				$a = new Area('This Box');
-				$a->display($c);
+				$a = new GlobalArea('Title');
+				$a->display();
 				?>
-			</div>
-			<div id="this-other-box">
-				<?php
-				$a = new Area('This Other Box');
-				$a->display($c);
-				?>
-				<br class="clear">
 			</div>
 			
+
 				<br class="clear">
 			<div id="content-wrap">
 				<div class="content">
