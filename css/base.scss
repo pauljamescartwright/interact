@@ -2,14 +2,21 @@ $blue: #0066ff;
 $yellow: #ffd119;
 $red-orange: #E05846;
 
-body {
+#big-header {
 	background-image: url('http://cdn.wa0pjc.com/interact/ohs-blur.jpg');
     background-size: 100% auto;
+}
+#top-margin {
+	width: 100%;
+	height: 4px;
+	background-color: #90aed0;
+}
+
+body {
     padding: 0px 0px 0px 0px;
     margin: 0px 0px 0px 0px;
     #header {
         margin: 0px 0px 0px 0px;
-        margin-top: 4px;
         width: 100%;
         height: 60px;
         background-color: #fff;

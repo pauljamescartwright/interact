@@ -7,42 +7,43 @@
 		<?php Loader::element('header_required'); ?>
 	</head>
 	<body>
-			<div id="header">
-				<div id="title">
-					Interact 5K
-				</div>
-				<div id="navagation">
-					<?php
-					$a = new GlobalArea('Navigation');
-					$a->display();
-					?>
-					<br class="clear">
-				</div>
+		<div id="top-margin"></div>
+		<div id="big-header">
+		<div id="header">
+			<div id="title">
+				Interact 5K
 			</div>
-			<div id="this-box">
+			<div id="navagation">
 				<?php
-				$a = new GlobalArea('Title');
+				$a = new GlobalArea('Navigation');
+				$a->display();
+				?>
+				<br class="clear">
+			</div>
+		</div>
+		<div id="this-box">
+			<?php
+			$a = new GlobalArea('Title');
+			$a->display();
+			?>
+		</div>
+		<br class="clear">
+		</div>
+		<div id="content-wrap">
+			<div class="content">
+				<?php
+				$a = new Area('Content');
+				$a->display($c);
+				?>
+			</div>
+			<div id="footer">
+				<hr id="footer-hr">
+				<?php
+				$a = new GlobalArea('Site Footer');
 				$a->display();
 				?>
 			</div>
-			
-
-				<br class="clear">
-			<div id="content-wrap">
-				<div class="content">
-					<?php
-					$a = new Area('Content');
-					$a->display($c);
-					?>
-				</div>
-				<div id="footer">
-					<hr id="footer-hr">
-					<?php
-					$a = new GlobalArea('Site Footer');
-					$a->display();
-					?>
-				</div>
-			</div>
+		</div>
 		<?php Loader::element('footer_required'); ?>
 	</body>
 </html>
