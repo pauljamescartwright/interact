@@ -20,6 +20,7 @@
 				?>
 				<br class="clear">
 			</div>
+			<br class="clear">
 		</div>
 		<div id="this-box">
 			<?php
