@@ -2,8 +2,8 @@
 <html lang="en">
 	<head>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="<?=$this->getThemePath()?>/css/zresponsive.css" />
 		<link rel="stylesheet" href="<?=$this->getThemePath()?>/css/zbase.css" />
-		<link rel="stylesheet" href="<?=$this->getThemePath()?>/css/responsive.css" />
 		<?php Loader::element('header_required'); ?>
 	</head>
 	<body>
@@ -14,6 +14,7 @@
 				Interact 5K
 			</div>
 			<div id="navagation">
+				<!-- <p class="n">Navigation</p> -->
 				<?php
 				$a = new GlobalArea('Navigation');
 				$a->display();
@@ -45,6 +46,14 @@
 				?>
 			</div>
 		</div>
+			<script type="text/javascript">
+			  $(function() {
+			    $('.n').click(function(e) {
+			      e.preventDefault();
+			      $(this).next().slideToggle();
+			    })
+			  })
+			</script>
 		<?php Loader::element('footer_required'); ?>
 	</body>
 </html>

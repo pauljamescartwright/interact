@@ -1,0 +1,116 @@
+
+@media (min-width: 200px) {
+	.content {
+		margin: 0px 0px 0px 0px;
+		width: 90%;
+        padding: 15px 15px 15px 15px;
+	}
+	#content-wrap {
+		width: 100%;
+	}
+
+    #title {
+        width: auto;
+        margin: auto;
+        text-align: center;
+    }
+    .nav {
+    	float: none;
+    	margin: auto;
+    }
+    .nav li {
+    	text-align: center;
+    	margin: auto;
+        margin-top: 20px;
+    }
+    .nav li a {
+	    font-weight: bold;
+	    text-decoration: none;
+	    color: #000;
+	    padding: 10px 10px 10px 10px;
+		background-color: #fff;
+	}
+    #navagation {
+    	width: auto;
+    	margin: auto;
+    	float: none;
+        height: auto;
+        padding: 0px 0px 0px 0px;
+    }
+    #big-header {
+		background-image: url('http://cdn.wa0pjc.com/interact/ohs-blur-chop.jpg');
+		background-position: 0px 250px;
+	}
+	/*.n {
+		text-align: center;
+		font-weight: bold;
+		padding: 10px 10px 10px 10px;
+	}*/
+}
+/*
+@media (min-width: 600px) {
+	#big-header {
+		background-image: url('http://cdn.wa0pjc.com/interact/ohs-blur.jpg');
+		background-position: 0px 0px;
+	}
+}*/
+
+@media (min-width: 700px) {
+	.content {
+		width: 95%;
+	}
+	#big-header {
+		background-position: 0px 30px;
+	}
+	#header {
+		height: auto;
+		height: 130px;
+	}
+	.nav li {
+        float: left;
+        margin-top : 20px;
+        margin-bottom: 20px;
+        margin-right: 1px;
+        margin-left: 1px;
+	}
+	.nav li a {
+	    font-weight: bold;
+	    text-decoration: none;
+	    color: #000;
+	    padding: 15px 15px 15px 15px;
+		background-color: #fff;
+	}
+	#navagation {
+		width: 650px;
+		margin: auto;
+		padding: 0px 0px 0px 0px;
+	}
+}
+
+@media (min-width: 950px) {
+	#header {
+		height: 60px;
+	}
+	#title{
+    	float: left;
+    	width: 200px;
+	}
+	
+	#navagation {
+		height: 60px;
+		width: auto;
+		float: right;
+	}
+	#big-header {
+		background-position: 0px -50px;
+	}
+	
+	/*.n {
+		display: none;
+	}*/
+}
+@media (min-width: 1000px) {
+	#big-header {
+		background-position: 0px -125px;
+	}
+}
